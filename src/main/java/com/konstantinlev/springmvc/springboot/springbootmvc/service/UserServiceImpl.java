@@ -1,10 +1,11 @@
-package web.service;
+package com.konstantinlev.springmvc.springboot.springbootmvc.service;
 
+
+import com.konstantinlev.springmvc.springboot.springbootmvc.dao.UserDAO;
+import com.konstantinlev.springmvc.springboot.springbootmvc.models.User;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import web.dao.UserDAO;
-import web.models.User;
 
 import java.util.List;
 

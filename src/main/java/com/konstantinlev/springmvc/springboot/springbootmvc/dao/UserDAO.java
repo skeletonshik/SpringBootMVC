@@ -1,6 +1,6 @@
-package web.dao;
+package com.konstantinlev.springmvc.springboot.springbootmvc.dao;
 
-import web.models.User;
+import com.konstantinlev.springmvc.springboot.springbootmvc.models.User;
 
 import java.util.List;
 

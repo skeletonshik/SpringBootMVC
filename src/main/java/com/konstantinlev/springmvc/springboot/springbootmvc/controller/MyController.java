@@ -1,13 +1,12 @@
-package web.controller;
-
+package com.konstantinlev.springmvc.springboot.springbootmvc.controller;
+import com.konstantinlev.springmvc.springboot.springbootmvc.models.User;
+import com.konstantinlev.springmvc.springboot.springbootmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import web.models.User;
-import web.service.UserService;
 
 import java.util.List;
 

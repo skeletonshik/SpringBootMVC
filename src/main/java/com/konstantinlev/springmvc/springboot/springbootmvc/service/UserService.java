@@ -1,6 +1,7 @@
-package web.service;
+package com.konstantinlev.springmvc.springboot.springbootmvc.service;
 
-import web.models.User;
+
+import com.konstantinlev.springmvc.springboot.springbootmvc.models.User;
 
 import java.util.List;
 
