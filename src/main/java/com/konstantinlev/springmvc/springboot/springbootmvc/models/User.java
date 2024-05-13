@@ -4,7 +4,7 @@ package com.konstantinlev.springmvc.springboot.springbootmvc.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "newtype.users")
+@Table(name = "users")
 public class User {
 
     @Id
